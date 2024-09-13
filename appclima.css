@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(to top, #059b91, #03382c);
+}
+
+.card {
+    background: #24696f;
+    position: relative;
+    padding: 20px;
+    width: 65rem;
+    height: 40rem;
+}
+
+.btn-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    color: #f9f5f5;
+    box-shadow: 10px 10px 3px #00000033;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.icon {
+    font-size: 5rem;
+    color: #f57535;
+}
+
+#sele {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+}
+
+select {
+    width: 100px;
+}
+
+.custom-icon {
+    font-size: 15rem;
+}
+
+.icon-input-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    box-shadow: 10px 10px 3px #00000033;
+}
+
+h1,
+h2,
+h3 {
+    color: #f9f5f5;
+}

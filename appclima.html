@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Clima</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet"  href="appclima.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+
+                    <h1 id="ciudad">Ciudad</h1>
+
+                    <button class="btn btn-dark btn-icon" onclick="refrescar()">
+                        <i class="bi bi-arrow-clockwise"></i>
+                    </button>
+                    <div class="card-body">
+                    </div>
+                    <div class="container">
+                        <i class="bi bi-cloud-sun-fill icon custom-icon"></i>
+                        <div>
+                            <h2>Temperatura actual</h2>
+                        </div>
+                        <div>
+                            <h3 id="temperatura"></h3>
+                        </div>
+                    </div>
+                    <div id="sele" class="container">
+                        <div class="inner-container icon-input-container">
+                            <input id="ciudad-input" class="form-control" type="text" placeholder="Ingresa ciudad">
+                            <button class="btn btn-dark" onclick="buscar()">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="appclima.js"></script>
+</body>
+
+</html>
